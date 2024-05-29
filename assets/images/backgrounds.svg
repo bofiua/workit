@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="rect-l" viewBox="0 0 63 32">
+<title>rect-l</title>
+<path d="M0 0h63.123v29.019c0 0-15.651 2.981-31.474 2.981s-31.649-2.981-31.649-2.981v-29.019z"></path>
+</symbol>
+<symbol id="rect-m" viewBox="0 0 45 32">
+<title>rect-m</title>
+<path d="M0 0h45.427v29.811c0 0-11.263 2.143-22.65 2.143s-22.777-2.143-22.777-2.143v-29.811z"></path>
+</symbol>
+<symbol id="rect-s" viewBox="0 0 25 32">
+<title>rect-s</title>
+<path d="M0 0h24.916v30.805c0 0-6.178 1.176-12.424 1.176s-12.493-1.176-12.493-1.176v-30.805z"></path>
+</symbol>
+</defs>
+</svg>
