@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Fraunces";
   font-display: swap;
-  src: url(../assets/fonts/Fraunces-VariableFont_SOFT\WONK\opsz\wght.ttf) format("truetype");
+  src: url(../assets/fonts/Fraunces-VariableFont.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Manrope";
   font-display: swap;
-  src: url(../assets/fonts/Manrope-VariableFont_wght.ttf) format("truetype");
+  src: url(../assets/fonts/Manrope-VariableFont.ttf) format("truetype");
 }
 
 .title {
@@ -20,7 +20,11 @@
   color: var(--main_color);
 }
 .title > span {
-  border-bottom: 3px solid var(--accent_color);
+  text-decoration: underline;
+  text-decoration-color: var(--accent_color);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+  /* border-bottom: 3px solid var(--accent_color); */
 }
 .title-m {
   /* Heading M */
