@@ -164,7 +164,7 @@ a:hover {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  height: 730px;
+  height: 45.625rem;
   background-color: var(--main_color);
   mask: url(../assets/images/backgrounds/Rectangle-l.svg) no-repeat center;
 }
@@ -189,7 +189,7 @@ a:hover {
 
 .hero > .container::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   transform: translate(-82%, -6%);
@@ -200,13 +200,17 @@ a:hover {
 
 .hero > .container::after {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   right: 0;
   transform: translate(132%, 100%);
   width: 125px;
   height: 181px;
   background-image: url(../assets/images/decor-right.svg);
+}
+
+.hero > .container picture {
+  margin-bottom: 5.625rem;
 }
 
 .hero__header {
@@ -221,7 +225,70 @@ a:hover {
 
 .hero__title {
   text-align: center;
-  color: var(--white)
+  color: var(--white);
 }
 
 /* END HERO */
+
+/* ORDER */
+.offer {
+  position: relative;
+}
+
+.offer-bg {
+  position: absolute;
+  z-index: -2;
+  top: -30rem;
+  width: 100%;
+  height: 60rem;
+  background-color: var(--ghost_white);
+  mask: url(../assets/images/backgrounds/Rectangle-second-l.svg) no-repeat center;
+}
+
+.offer > .container {
+  display: grid;
+  grid-template-columns: repeat(3, 22rem);
+  gap: 26px;
+  /* align-items: start; */
+  /* justify-items: center; */
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid #000; */
+}
+
+.card__number {
+  margin-bottom: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid var(--davys_grey);
+  border-radius: 50%;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.67;
+  color: var(--main_color);
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card__title {
+  font-family: "Fraunces";
+  font-size: 32px;
+  line-height: 1.25;
+}
+
+/* END ORDER */
